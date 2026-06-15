@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#1f1f1f,#2c3e50);
+    font-family:Arial,sans-serif;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    width:400px;
+    text-align:center;
+}
+
+button{
+    padding:10px 20px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+#hiddenMessage{
+    margin-top:20px;
+    font-weight:bold;
+}
